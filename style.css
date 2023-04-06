@@ -1,0 +1,252 @@
+/* Fontes */
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  outline: none;
+}
+
+header {
+  background-color: #fff2f3;
+}
+#navbar {
+  display: flex;
+  align-items: center;
+  margin: 0 59px;
+}
+#navbar #name {
+  display: flex;
+  flex: 0;
+}
+#navbar #name p {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 32px;
+  padding: 0 79px 0 136px;
+}
+#navbar nav {
+  flex: 2;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 19px 143px 19px 41px;
+}
+#navbar ul {
+  display: flex;
+  list-style: none;
+  align-items: center;
+  gap: 20px;
+}
+#navbar ul li a {
+  color: unset;
+  text-decoration: none;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 24px;
+  color: #737373;
+}
+
+#nav ul li {
+  align-items: center;
+}
+/* Botoes */
+#btn {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+#btn-place {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+#btn-green {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 22px;
+  color: #96bb7c;
+  border: none;
+  background: transparent;
+}
+#btn-whiter {
+  padding: 15px 25px;
+  background: #96bb7c;
+  border-radius: 5px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 15px;
+  border: none;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 22px;
+  color: #ffffff;
+}
+#btn-whiter-placer {
+  padding: 15px 40px;
+  background: #96bb7c;
+  border-radius: 5px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 15px;
+  border: none;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 22px;
+  color: #ffffff;
+}
+#btn-green-border {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 22px;
+  color: #96bb7c;
+  background: transparent;
+  padding: 15px 25px;
+  border: 1px solid #96bb7c;
+  border-radius: 5px;
+}
+#placeholder {
+  display: flex;
+}
+#placeholder #text {
+  margin: auto;
+  padding-left: 132px;
+  flex: 0;
+}
+
+#placeholder #text h5 {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 0.1px;
+  color: #96bb7c;
+  padding-bottom: 30px;
+}
+
+#placeholder #text #text-1 {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 58px;
+  line-height: 80px;
+  letter-spacing: 0.2px;
+  color: #252b42;
+  padding-bottom: 30px;
+}
+
+#placeholder #text #text-2 {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 30px;
+  letter-spacing: 0.2px;
+  color: #737373;
+  padding-bottom: 30px;
+}
+#image-placeholder {
+  flex: 2;
+  display: flex;
+  justify-content: end;
+}
+
+/* Section */
+section {
+  background: #ffffff;
+  display: flex;
+  padding: 160px 200px 219px 195px;
+}
+section #section-text {
+  margin: auto;
+  flex: 1;
+  
+}
+section #card-section {
+  display: flex;
+  flex: 1;
+}
+
+section #section-text img {
+  padding-bottom: 35px;
+}
+section #section-text h2 {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 50px;
+  letter-spacing: 0.2px;
+  color: #252b42;
+  padding-bottom: 35px;
+}
+section #section-text p {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+  letter-spacing: 0.2px;
+  color: #737373;
+}
+section #link-section {
+  display: flex;
+  gap: 10px;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 24px;
+  letter-spacing: 0.2px;
+  color: #96bb7c;
+}
+#card-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#card-section #card-01 {
+  box-shadow: 0px 13px 19px 0px #00000012;
+  padding: 35px 42px 35px 40px;
+}
+#card-section #card-02 {
+  box-shadow: 0px 13px 19px 0px #00000012;
+  padding: 35px 42px 35px 40px;
+}
+#card-section h5 {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 0.1px;
+  color: #252b42;
+  padding-bottom: 20px;
+}
+#card-section img{
+  padding-bottom: 20px;
+}
+#card-section p {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+  letter-spacing: 0.2px;
+  color: #737373;
+}
